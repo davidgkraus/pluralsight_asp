@@ -1,6 +1,7 @@
 ﻿
 console.log("Moshi Mosh!");
 
+$.
 
 var theForm = document.getElementById("theForm");
 theForm.hidden = false;

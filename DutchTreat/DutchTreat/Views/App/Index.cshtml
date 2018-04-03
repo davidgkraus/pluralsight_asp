@@ -1,11 +1,19 @@
-﻿<!DOCTYPE html>
+﻿@{ 
+    ViewBag.Title = "Home Page";
+}
+
+
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Dutch Treat</title>
+    <title>Dutch Treat: @ViewBag.Title</title>
     <link href="~/css/site.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/vendor/bootstrap/dist/css/bootstrap.css" />
+
 </head>
 <body>
-    <h2>Dutch Treat</h2>
+    <h2>@ViewBag.Title</h2>
+
 
     <div class="product-info">
         <img src="~/img/squirell.jpg" />
@@ -16,9 +24,22 @@
             <li>Title: </li>
             <li>Description:</li>
         </ul>
-        <button id="BuyButton">Buy</button>
+        <button class="btn btn-primary" id="BuyButton">Buy</button>
+    </div>
+    <br />
+    <div class="product-info">
+        <img src="~/img/koala.jpg" />
+        <h3>Mug</h3>
+        <ul class="product-props">
+            <li>Price: $9.99</li>
+            <li>Artist: David</li>
+            <li>Title: </li>
+            <li>Description:</li>
+        </ul>
+        <button class="btn btn-primary" id="BuyButton">Buy</button>
     </div>
 
+    <div id="div9">Hello World</div>
 
     <div id="theForm">
         <form>
@@ -43,5 +64,10 @@
         </form>
     </div>
     <script src="~/js/index.js"></script>
+    <script src="~/vendor/jquery/dist/jquery.js"></script>
+    <script src="~/vendor/bootstrap/dist/js/bootstrap.js"></script>
+    
+    <script>$("#div9").text("Hello World!!!");</script>
+
 </body>
 </html>
