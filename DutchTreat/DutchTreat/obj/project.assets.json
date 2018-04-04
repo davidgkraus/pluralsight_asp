@@ -12542,11 +12542,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\David\\source\\repos\\DutchTreat\\DutchTreat\\DutchTreat.csproj",
+      "projectUniqueName": "D:\\Code\\Git\\pluralsight_asp\\DutchTreat\\DutchTreat\\DutchTreat.csproj",
       "projectName": "DutchTreat",
-      "projectPath": "C:\\Users\\David\\source\\repos\\DutchTreat\\DutchTreat\\DutchTreat.csproj",
+      "projectPath": "D:\\Code\\Git\\pluralsight_asp\\DutchTreat\\DutchTreat\\DutchTreat.csproj",
       "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\David\\source\\repos\\DutchTreat\\DutchTreat\\obj\\",
+      "outputPath": "D:\\Code\\Git\\pluralsight_asp\\DutchTreat\\DutchTreat\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
