@@ -2,7 +2,8 @@
 <html>
 <head>
     <title>The site: @ViewBag.Title</title>
-    <link rel="stylesheet" href="~/vendor/bootstrap/dist/css/bootstrap.min.css" />
+    @*<link rel="stylesheet" href="~/vendor/bootstrap/dist/css/bootstrap.css" />*@
+    <link href="~/css/bootstrap.css" rel="stylesheet" />
     <link href="~/css/site.css" rel="stylesheet" />
     
 </head>
@@ -23,9 +24,13 @@
     </section>
     <footer>Copyright 2018 frogster entertainment</footer>
 
-    <script src="~/vendor/jquery/dist/jquery.js"></script>
-    <script src="~/vendor/bootstrap/dist/js/bootstrap.js"></script>
+
+    @*<script src="~/vendor/jquery/dist/jquery.js"></script>
+    <script src="~/vendor/bootstrap/dist/js/bootstrap.js"></script>*@
+    <script src="~/js/jquery.js"></script>
+    <script src="~/js/bootstrap.js"></script>
     <script src="~/js/index.js"></script>
+
     @RenderSection("scripts", false)
 
 </body>

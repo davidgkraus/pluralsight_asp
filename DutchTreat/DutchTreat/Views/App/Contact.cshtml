@@ -3,8 +3,10 @@
     ViewBag.Title = "Contact us";
 }
 @section scripts {
-    <script src="~/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
-    <script src="~/vendor/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    @*<script src="~/vendor/jquery-validation/dist/jquery.validate.min.js"></script>*@
+    @*<script src="~/vendor/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>*@
+    <script src="~/js/jquery.validate.min.js"></script>
+    <script src="~/js/jquery.validate.unobtrusive.js"></script>
 }
 <form method="post">
     <div asp-validation-summary="ModelOnly"></div>
